@@ -1,0 +1,34 @@
+2022-10-31 11:21:45.380  INFO 43732 --- [main] c.m.m.MusalsoftDroneApplicationTests     : Starting MusalsoftDroneApplicationTests using Java 11.0.9 on EGLT-WIN469 with PID 43732 (started by MAME1 in D:\thanos_panther\musalsoftDroneTask\musalsoftDrone)
+2022-10-31 11:21:45.387  INFO 43732 --- [main] c.m.m.MusalsoftDroneApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-10-31 11:21:46.705  INFO 43732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-31 11:21:46.707  INFO 43732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-10-31 11:21:46.745  INFO 43732 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.musalasoft.musalsoftDrone.repository.DroneRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-10-31 11:21:46.747  INFO 43732 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.musalasoft.musalsoftDrone.repository.MedicationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-10-31 11:21:46.748  INFO 43732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 0 JDBC repository interfaces.
+2022-10-31 11:21:46.757  INFO 43732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-31 11:21:46.759  INFO 43732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-31 11:21:46.793  INFO 43732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2022-10-31 11:21:47.734  INFO 43732 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-31 11:21:48.248  INFO 43732 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-31 11:21:48.385  INFO 43732 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-31 11:21:48.543  INFO 43732 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-10-31 11:21:48.831  INFO 43732 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-31 11:21:49.979  INFO 43732 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-31 11:21:50.812  INFO 43732 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-31 11:21:50.820  INFO 43732 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-31 11:21:52.123  WARN 43732 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-31 11:21:52.597  INFO 43732 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-31 11:21:53.979  INFO 43732 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-10-31 11:21:54.155  INFO 43732 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-10-31 11:21:54.206  INFO 43732 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-10-31 11:21:54.262  INFO 43732 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-10-31 11:21:54.663  INFO 43732 --- [main] c.m.m.MusalsoftDroneApplicationTests     : Started MusalsoftDroneApplicationTests in 9.723 seconds (JVM running for 10.901)
+2022-10-31 11:21:54.950  INFO 43732 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-31 11:21:54.951  INFO 43732 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-10-31 11:21:54.955  WARN 43732 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-10-31 11:21:54.956 ERROR 43732 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-10-31 11:21:54.957  WARN 43732 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-10-31 11:21:54.958 ERROR 43732 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-10-31 11:21:54.958  WARN 43732 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-10-31 11:21:54.960  INFO 43732 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-31 11:21:54.966  INFO 43732 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
